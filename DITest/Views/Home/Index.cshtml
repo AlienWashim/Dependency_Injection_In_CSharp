@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Email Services</h1>
+
+    <!-- Email Form -->
+    <form method="post" action="/Home/SendEmail">
+        <div class="form-group">
+            <label for="toEmail">To:</label>
+            <input type="email" class="form-control" id="toEmail" name="To" placeholder="Recipient's email" required />
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject" required />
+        </div>
+        <div class="form-group">
+            <label for="body">Body:</label>
+            <textarea class="form-control" id="body" name="Body" placeholder="Message Body" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-2 p-2">Send</button>
+    </form>
+
+    <hr />
+
+    <!-- Sent Emails Box -->
+    <h3>Sent Emails</h3>
+    <ul>
+        @foreach (var email in ViewData["SentEmails"] as List<EmailMessage>)
+        {
+            <li>
+                <strong>@email.Subject</strong> (To: @email.To) <br />
+                @email.Body <br />
+                <small>@email.SentDate.ToString("g")</small>
+                <hr />
+            </li>
+        }
+    </ul>
+</div>
