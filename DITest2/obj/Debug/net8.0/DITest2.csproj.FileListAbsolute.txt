@@ -1,0 +1,14 @@
+C:\Users\BJIT\source\repos\DITest2\DITest2\bin\Debug\net8.0\DITest2.exe
+C:\Users\BJIT\source\repos\DITest2\DITest2\bin\Debug\net8.0\DITest2.deps.json
+C:\Users\BJIT\source\repos\DITest2\DITest2\bin\Debug\net8.0\DITest2.runtimeconfig.json
+C:\Users\BJIT\source\repos\DITest2\DITest2\bin\Debug\net8.0\DITest2.dll
+C:\Users\BJIT\source\repos\DITest2\DITest2\bin\Debug\net8.0\DITest2.pdb
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.AssemblyInfoInputs.cache
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.AssemblyInfo.cs
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.csproj.CoreCompileInputs.cache
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.dll
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\refint\DITest2.dll
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.pdb
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\DITest2.genruntimeconfig.cache
+C:\Users\BJIT\source\repos\DITest2\DITest2\obj\Debug\net8.0\ref\DITest2.dll
